@@ -4,8 +4,8 @@
 import math
 import numpy as np
 from skimage.morphology import skeletonize
-import data_utils.graph_utils as graph_utils
-import data_utils.sknw as sknw
+import graph_utils as graph_utils
+import sknw as sknw
 
 
 def getKeypoints(mask, thresh=0.8, is_gaussian=True, is_skeleton=False, smooth_dist=4):
